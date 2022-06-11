@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        maven{
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2' // 添加插件 更好支持GreenDa
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+      /*
+        maven {url 'https://dl.bintray.com/chaozhouzhang/maven' }
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }*/
+        //备用仓库
+        maven {
+            url "https://maven.aliyun.com/repository/google"
+        }
+       maven { url "https://gitee.com/angcyo/bmob-android-sdk/raw/master" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

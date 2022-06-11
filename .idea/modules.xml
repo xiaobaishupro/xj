@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UpData_dzxc2.iml" filepath="$PROJECT_DIR$/UpData_dzxc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UpData_dzxc2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UpData_dzxc2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/UpData_dzxc2.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/UpData_dzxc2.lib.iml" />
+    </modules>
+  </component>
+</project>
